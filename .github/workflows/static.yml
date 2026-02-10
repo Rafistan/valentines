@@ -44,21 +44,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-## Step 3: Commit the workflow
-
-1. Click **"Commit changes..."** (green button at top right)
-2. Click **"Commit changes"** again in the popup
-
-## Step 4: Wait for deployment
-
-1. Go to the **Actions** tab in your repository
-2. You'll see the workflow running
-3. Wait for it to complete (green checkmark)
-
-## Step 5: Access your site
-
-Your site will be live at:
-```
-https://rafistan.github.io/valentines/
