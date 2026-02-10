@@ -26,15 +26,15 @@ export class App {
   };
 
   captchaImages: CaptchaImage[] = [
-    { url: '/me1.jpeg', isCorrect: true, selected: false },
-    { url: '/me2.jpeg', isCorrect: true, selected: false },
-    { url: '/notme1.jpeg', isCorrect: false, selected: false },
-    { url: '/me3.jpeg', isCorrect: true, selected: false },
-    { url: '/notme2.jpeg', isCorrect: false, selected: false },
-    { url: '/notme3.jpeg', isCorrect: false, selected: false },
-    { url: '/me4.jpeg', isCorrect: true, selected: false },
-    { url: '/notme4.jpeg', isCorrect: false, selected: false },
-    { url: '/me5.jpeg', isCorrect: true, selected: false },
+    { url: '/assets/me1.jpeg', isCorrect: true, selected: false },
+    { url: '/assets/me2.jpeg', isCorrect: true, selected: false },
+    { url: '/assets/notme1.jpeg', isCorrect: false, selected: false },
+    { url: '/assets/me3.jpeg', isCorrect: true, selected: false },
+    { url: '/assets/notme2.jpeg', isCorrect: false, selected: false },
+    { url: '/assets/notme3.jpeg', isCorrect: false, selected: false },
+    { url: '/assets/me4.jpeg', isCorrect: true, selected: false },
+    { url: '/assets/notme4.jpeg', isCorrect: false, selected: false },
+    { url: '/assets/me5.jpeg', isCorrect: true, selected: false },
   ];
 
   toggleImageSelection(image: CaptchaImage): void {
